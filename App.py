@@ -4,6 +4,7 @@ name= st.text_input("Enter your name")
 if name: st.success(f"Hello{name}")
 age= st.slider("Select your age",1,100)
 st.write("Age:", age)
-id st.button("Celebrate"): st.balloons()
+st.button("Celebrate")
+st.balloons() 
 
 
